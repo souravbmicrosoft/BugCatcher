@@ -1,0 +1,56 @@
+[
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.BaseFiniteStateMachineContext.ExecuteWithOutcome(FiniteStateMachine fsm, ActionOutcome& actionOutcome, MethodInfo methodInfo, Func`3 typeConverter, CancellationToken activityCancellationToken, Object[] parameters) in F:\\dbs\\sh\\5uj5\\0401_102801\\cmd\\7\\Sql\\xdb\\common\\fsm\\BaseFiniteStateMachineContext.cs:line 382",
+      "symbol": "Microsoft.Xdb.Common.BaseFiniteStateMachineContext.ExecuteWithOutcome",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "common\\fsm\\BaseFiniteStateMachineContext.cs",
+      "common\\fsm\\UnitTests\\BaseFiniteStateMachineContextTest.cs",
+      "common\\fsm\\FiniteStateMachineContext.cs",
+      "common\\fsm\\UnitTests\\Framework\\FiniteStateMachineUnitTestContext.cs",
+      "common\\client\\BindingExtensions.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.FiniteStateMachineContext.ChangeStateInternal(FiniteStateMachineTransactionContext transactionContext, FiniteStateMachine fsm, MethodInfo methodInfo, Boolean persistException, Boolean attemptStateChange, ActionOutcome actionOutcome, Action action, ChangeStateFlags flags, Boolean testIdempotenancy, Func`3 typeConverter, FiniteStateMachineEventInfo eventInfo, Int32 observedConcurrency, EventCollectorInfo eventCollectorInfo, AsyncActionEpilogueContext asyncActionEpilogueCtx, Object[] parameters) in F:\\dbs\\sh\\5uj5\\0401_102801\\cmd\\7\\Sql\\xdb\\common\\fsm\\FiniteStateMachineContext.cs:line 10057",
+      "symbol": "Microsoft.Xdb.Common.FiniteStateMachineContext.ChangeStateInternal",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "common\\fsm\\FiniteStateMachineContext.cs",
+      "common\\fsm\\Configuration\\FiniteStateMachineContextConfiguration.cs",
+      "common\\fsm\\Exceptions\\FiniteStateMachineContextDisposedException.cs",
+      "common\\fsm\\Exceptions\\FiniteStateMachineContextInitException.cs",
+      "common\\fsm\\Throttling\\FiniteStateMachineContextThrottlingActionFilterExtension.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.FiniteStateMachineContext.ExecuteActionInternal(FiniteStateMachineTransactionContext transactionContext, FiniteStateMachine fsm, MethodInfo methodInfo, String methodName, ChangeStateFlags flags, Action action, ActionOutcome actionOutcome, AsyncActionSetupContext asyncActionSetupCtx, AsyncActionEpilogueContext asyncActionEpilogueCtx, AutoActionKind autoActionKind) in F:\\dbs\\sh\\5uj5\\0401_102801\\cmd\\7\\Sql\\xdb\\common\\fsm\\FiniteStateMachineContext.cs:line 7826",
+      "symbol": "Microsoft.Xdb.Common.FiniteStateMachineContext.ExecuteActionInternal",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "common\\fsm\\FiniteStateMachineContext.cs",
+      "common\\fsm\\Configuration\\FiniteStateMachineContextConfiguration.cs",
+      "common\\fsm\\Exceptions\\FiniteStateMachineContextDisposedException.cs",
+      "common\\fsm\\Exceptions\\FiniteStateMachineContextInitException.cs",
+      "common\\fsm\\Throttling\\FiniteStateMachineContextThrottlingActionFilterExtension.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  }
+]

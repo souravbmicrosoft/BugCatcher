@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pr-analyzer"
+version = "0.1.0"
+description = "Stack-trace rooted issue analyzer using LLMs and local code index"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+pr-analyzer = "pr_analyzer.cli:main"

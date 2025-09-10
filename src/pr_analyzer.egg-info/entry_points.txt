@@ -1,0 +1,2 @@
+[console_scripts]
+pr-analyzer = pr_analyzer.cli:main

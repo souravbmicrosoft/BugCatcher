@@ -1,0 +1,50 @@
+--- BaseFiniteStateMachineContext.cs
++++ BaseFiniteStateMachineContext.cs
+@@ -375,11 +375,19 @@
+-            Enum targetStateEnum = (Enum)Enum.ToObject(fsm.Metadata.Attribute.StateEnumType, actionOutcome.TargetState);
+-
+-            // Double check that the calling method has this transition as a declared FSMAction attribute
+-            if ((!fsm.Metadata.TargetStates.ContainsKey(methodInfo)) ||
+-                (!fsm.Metadata.TargetStates[methodInfo].Contains(targetStateEnum)))
+-            {
+-                throw new FiniteStateMachineInvalidActionOutcomeException(
+-                    fsm.GetType().Name,
+-                    methodInfo.Name,
+-                    targetStateEnum.GetType().ToString(),
+-                    targetStateEnum.ToString());
+-            }
++            Enum targetStateEnum = null;
++            try
++            {
++                targetStateEnum = (Enum)Enum.ToObject(fsm.Metadata.Attribute.StateEnumType, actionOutcome.TargetState);
++            }
++            catch (Exception ex)
++            {
++                throw new FiniteStateMachineInvalidActionOutcomeException(
++                    fsm.GetType().Name,
++                    methodInfo.Name,
++                    fsm.Metadata.Attribute.StateEnumType.FullName,
++                    actionOutcome.TargetState.ToString(),
++                    ex);
++            }
++
++            // Defensive check: ensure targetStateEnum is defined in the enum
++            if (!Enum.IsDefined(fsm.Metadata.Attribute.StateEnumType, actionOutcome.TargetState))
++            {
++                throw new FiniteStateMachineInvalidActionOutcomeException(
++                    fsm.GetType().Name,
++                    methodInfo.Name,
++                    targetStateEnum.GetType().ToString(),
++                    targetStateEnum.ToString());
++            }
++
++            // Double check that the calling method has this transition as a declared FSMAction attribute
++            if ((!fsm.Metadata.TargetStates.ContainsKey(methodInfo)) ||
++                (!fsm.Metadata.TargetStates[methodInfo].Contains(targetStateEnum)))
++            {
++                throw new FiniteStateMachineInvalidActionOutcomeException(
++                    fsm.GetType().Name,
++                    methodInfo.Name,
++                    targetStateEnum.GetType().ToString(),
++                    targetStateEnum.ToString());
++            }

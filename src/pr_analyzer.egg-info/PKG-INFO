@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: pr-analyzer
+Version: 0.1.0
+Summary: Stack-trace rooted issue analyzer using LLMs and local code index
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+PRAnalyzer — Stack-trace Root Cause Analyzer
+
+Overview
+- Index a local codebase into embeddings (FAISS) and metadata.
+- Accept a stack trace, parse frames, retrieve relevant code, and ask an LLM to determine if the issue is code or an external dependency.
+
+Quickstart
+1. Create a venv with Python 3.10+ and install requirements:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+2. Set environment variables (OpenAI/Azure keys) in `.env`.
+
+3. Index a repo and run the server:
+
+```powershell
+pr-analyzer index --repo "C:\path\to\repo" --index-path ./index.faiss
+pr-analyzer serve --index-path ./index.faiss
+```
+
+API
+- POST /analyze with JSON {"stack_trace": "..."}
+
+Notes
+- Uses OpenAI by default via `OPENAI_API_KEY`. You can configure Azure endpoints via env.
+- This is engineered to be production-ready: containerization notes in docs, and tests provided.
+
+Windows-specific notes
+- faiss can be tricky to install on Windows via pip. If `pip install faiss-cpu` fails, use conda (recommended):
+
+```powershell
+conda create -n pr-analyzer python=3.11 -y
+conda activate pr-analyzer
+conda install -c conda-forge faiss-cpu sentence-transformers -y
+pip install -r requirements.txt
+```
+
+Or install a compatible `faiss-cpu` wheel for your Python version from the official releases.

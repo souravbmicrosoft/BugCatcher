@@ -1,0 +1,24 @@
+# Core
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+python-dotenv==1.0.0
+requests==2.31.0
+pydantic==1.10.11
+
+# embeddings / vector store
+# sentence-transformers and a compatible huggingface-hub
+sentence-transformers==2.2.2
+huggingface-hub==0.12.1
+# Use a faiss release that is available on PyPI; older pins (1.8.3) may not exist for your Python/OS.
+# If pip installation fails on Windows, prefer conda-forge (instructions in README.md).
+faiss-cpu==1.12.0
+
+# LLM
+openai==1.7.0
+
+# utils
+click==8.1.7
+pytest==7.4.0
+black==24.3.0
+# pin ruff to a version available on PyPI for Windows/Python 3.11
+ruff==0.12.12

@@ -1,0 +1,544 @@
+[
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException(HttpResponse response, RequestContext requestContext)",
+      "symbol": "Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse[T](HttpResponse response, RequestContext requestContext)",
+      "symbol": "Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.OAuth2Client.<ExecuteRequestAsync>d__13`1.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.OAuth2.OAuth2Client.<ExecuteRequestAsync>d__13`1.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.TokenClient.<SendHttpAndClearTelemetryAsync>d__10.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.OAuth2.TokenClient.<SendHttpAndClearTelemetryAsync>d__10.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.TokenClient.<SendHttpAndClearTelemetryAsync>d__10.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.OAuth2.TokenClient.<SendHttpAndClearTelemetryAsync>d__10.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.OAuth2.TokenClient.<SendTokenRequestAsync>d__4.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.OAuth2.TokenClient.<SendTokenRequestAsync>d__4.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Internal.Requests.RequestBase.<SendTokenRequestAsync>d__25.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Internal.Requests.RequestBase.<SendTokenRequestAsync>d__25.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Internal.Requests.ClientCredentialRequest.<GetAccessTokenAsync>d__4.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Internal.Requests.ClientCredentialRequest.<GetAccessTokenAsync>d__4.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Internal.Requests.ClientCredentialRequest.<ExecuteAsync>d__3.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Internal.Requests.ClientCredentialRequest.<ExecuteAsync>d__3.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Internal.Requests.RequestBase.<>c__DisplayClass11_1.<<RunAsync>b__1>d.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Internal.Requests.RequestBase.<>c__DisplayClass11_1.<<RunAsync>b__1>d.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Utils.StopwatchService.<MeasureCodeBlockAsync>d__4.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Utils.StopwatchService.<MeasureCodeBlockAsync>d__4.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.Internal.Requests.RequestBase.<RunAsync>d__11.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.Internal.Requests.RequestBase.<RunAsync>d__11.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Identity.Client.ApiConfig.Executors.ConfidentialClientExecutor.<ExecuteAsync>d__3.MoveNext()",
+      "symbol": "Microsoft.Identity.Client.ApiConfig.Executors.ConfidentialClientExecutor.<ExecuteAsync>d__3.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+      "symbol": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.SqlServer.Management.Service.Clients.SqlRpClient.HttpRequestClient.ArmAuthClient.AcquireResultAsyncWithCertUsingMSAL(String aadApplicationId, String authEndpoint, String adServiceEndpointResourceId, X509Certificate2 certificate, Boolean sendX5c) in F:\\dbs\\sh\\5uj5\\0526_020257\\cmd\\2e\\Sql\\xdb\\manifest\\svc\\mgmt\\clients\\SqlRpClient\\HttpRequestClient\\ArmAuthClient.cs:line 156",
+      "symbol": "Microsoft.SqlServer.Management.Service.Clients.SqlRpClient.HttpRequestClient.ArmAuthClient.AcquireResultAsyncWithCertUsingMSAL",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\SqlRpClient\\HttpRequestClient\\ArmAuthClient.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.SqlServer.Management.Service.Clients.SqlRpClient.HttpRequestClient.ArmAuthClient.<>c__DisplayClass8_0.<GetAuthorizationHeader>b__1(X509Certificate2 cert) in F:\\dbs\\sh\\5uj5\\0526_020257\\cmd\\2e\\Sql\\xdb\\manifest\\svc\\mgmt\\clients\\SqlRpClient\\HttpRequestClient\\ArmAuthClient.cs:line 100",
+      "symbol": "Microsoft.SqlServer.Management.Service.Clients.SqlRpClient.HttpRequestClient.ArmAuthClient.<>c__DisplayClass8_0.<GetAuthorizationHeader>b__1",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<>c__DisplayClass24_0.<ExecuteServiceOperation>b__0(TClient s)",
+      "symbol": "Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<>c__DisplayClass24_0.<ExecuteServiceOperation>b__0",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<>c__DisplayClass26_0`1.<ExecuteServiceOperation>b__0(TClient c, CancellationToken _)",
+      "symbol": "Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<>c__DisplayClass26_0`1.<ExecuteServiceOperation>b__0",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<ExecuteServiceOperationAsync>d__30`1.MoveNext()",
+      "symbol": "Microsoft.Xdb.Common.Service.SqlSecurityServiceCache`1.<ExecuteServiceOperationAsync>d__30`1.MoveNext",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextApplicationUpgradeDomainAsyncStartEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncCompleteEvent.cs",
+      "manifest\\svc\\mgmt\\clients\\XEvents\\FabricOperations\\MoveNextFabricUpgradeDomainAsyncStartEvent.cs"
+    ],
+    "pr_matches": [],
+    "fixes": []
+  },
+  {
+    "frame": {
+      "raw": "at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()",
+      "symbol": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+      "file": null,
+      "line": null
+    },
+    "match": {},
+    "candidates": [],
+    "pr_matches": [],
+    "fixes": []
+  }
+]
